@@ -1,0 +1,140 @@
+/*.container {
+  height: 500px;
+  background-color: orange;
+  }
+  */
+  /*header {
+  background-color: #4267b2;
+  height: 30px;
+}*/
+body{
+	 background-color: #e9ebee;
+}
+footer {
+  /*background-color: rgba(0,0,0,0.87);
+  height: 20px;*/
+  margin-top: 30px!important;
+}*/
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#main,
+#menu,
+#sidebar {
+  background-color: #e9ebee;
+  height: 600px;
+}
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white !important;
+}
+.blue-text{
+color:  black !important;
+font-size:14!important;
+}
+a{
+		color: white !important;
+}
+.glyphicon {
+    font-size: 12px;
+    color: white;
+}
+.pull-right {
+    float: right!important;
+}
+.list-heading {
+    padding: 0px 15px 0 28px;
+    font-size: 12px!important;
+    font-family: arial black!important;
+}
+.dropdown-toggle{
+	    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.row::-webkit-scrollbar {
+    display: none;
+}
+.fa {
+    padding: 20px auto;
+    font-size: 30px!important;
+    width: 30px!important;
+    text-align: center;
+    text-decoration: none;
+    height: 30px!important;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+p{
+margin: 20px 0 1px 0px!important;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: #4267b2!important;
+    width: 36px!important;
+    height: 36px!important;
+    border-top: 4px solid #4267b2;
+    margin-top: 6px; 
+padding: 5px 10px 10px 5px!important;
+border-radius:1px;
+}
+.nav-pills>li>a{
+padding: 4px 30px!important;
+    text-overflow: ellipsis;
+}
+.pull-right {
+    float: right!important;
+}
+@media(min-width: 768px){
+.container{
+	width: 750px;
+}
+}
+@media(min-width: 992px){
+.container{
+	width: 970px;
+}
+}
+@media(min-width: 1200px){
+.container{
+	width: 1170px;
+}
+}
+.green{
+display: inline-block;
+width: 5px;
+height: 5px;
+border-radius: 50%;
+background: rgb(0,200,0);
+position: absolute;
+right: 0;
+bottom: 7px;
+}
